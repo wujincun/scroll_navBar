@@ -1,0 +1,108 @@
+/*CSS重置*/
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fildset,
+table,
+td,
+img,
+div,
+dl,
+dt,
+dd,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-size: 12px;
+  line-height: 1.7;
+}
+img {
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+#content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#content h1 {
+  color: #0088bb;
+}
+#content .item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px dotted #0088bb;
+}
+#content .item h2 {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #0088bb;
+  margin-bottom: 10px;
+}
+#content .item li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#content .item li a img {
+  width: 230px;
+  height: 230px;
+  border: none;
+}
+#menu {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: 400px;
+  width: 80px;
+}
+#menu li a {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+#menu li a:hover,
+#menu li a.current {
+  color: #fff;
+  background-color: #0088bb;
+}
